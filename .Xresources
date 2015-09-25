@@ -1,0 +1,68 @@
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+URxvt.geometry:         100x45
+URxvt.borderLess:       false
+URxvt.transparent:      true
+URxvt.depth:            32
+
+URxvt.xftAntialias:     true
+URxvt.font:             xft:inconsolata:pixelsize=14:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=14:antialias=true,hinting=true
+URxvt.boldFont:         xft:inconsolata:pixelsize=14:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=14:antialias=true,hinting=true
+URxvt.italicFont:       xft:inconsolata:pixelsize=14:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=14:antialias=true,hinting=true
+URxvt.bolditalicFont:   xft:inconsolata:pixelsize=14:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=14:antialias=true,hinting=true
+
+! Background color
+URxvt*background: black
+
+! Font color
+URxvt*foreground: white
+
+! Other colors
+URxvt*color0: black
+URxvt*color1: red3
+URxvt*color2: green3
+URxvt*color3: yellow3
+URxvt*color4: blue2
+URxvt*color5: magenta3
+URxvt*color6: cyan3
+URxvt*color7: gray90
+URxvt*color8: grey50
+URxvt*color9: red
+URxvt*color10: green
+URxvt*color11: yellow
+URxvt*color12: blue
+URxvt*color13: magenta
+URxvt*color14: cyan
+URxvt*color15: white
+URxvt*color12: rgb:5c/5c/ff
+URxvt.depth: 32
+URxvt*.transparent: true
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 100
+URxvt.background: [90]#000000
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+Xft.lcdfilter: lcddefaul
+
+
+URxvt.internalBorder:   0
+URxvt.underlineColor:scroll#999999
+URxvt.cursorBlink:      true
+URxvt.cursorColor:      #850A0C
+URxvt.cursorColor2:     #000000
+
+URxvt.scrollBar:        False
+URxvt.scrollBar_right:  False
+ 
+URxvt.scrollTtyOutput:  False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+URxvt.urgentOnBell: True
