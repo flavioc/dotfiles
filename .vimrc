@@ -23,7 +23,6 @@ Plugin 'vim-scripts/a.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-scripts/twilight256.vim'
 Plugin 'endel/vim-github-colorscheme'
-Plugin 'amdt/vim-niji'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'kana/vim-operator-user'
 Plugin 'rhysd/vim-clang-format'
@@ -39,7 +38,6 @@ Plugin 'tpope/vim-fugitive'
 "Plugin 'jiangmiao/auto-pairs'
 "Plugin 'jeetsukumaran/vim-indentwise'
 Plugin 'mattn/emmet-vim'
-Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'godlygeek/tabular'
@@ -47,6 +45,8 @@ Plugin 'junegunn/seoul256.vim'
 Plugin 'justinmk/vim-sneak'
 Plugin 'chriskempson/tomorrow-theme'
 Plugin 'wellle/tmux-complete.vim'
+Plugin 'embear/vim-localvimrc'
+Plugin 'ciaranm/detectindent'
 call vundle#end()
 
 filetype plugin indent on
@@ -164,7 +164,7 @@ let g:solarized_termtrans = 1
 let g:solarized_termcolors=256
 syntax enable
 set background=dark
-"colorscheme seoul256-light
+colorscheme seoul256
 "colorscheme Tomorrow-Night-Blue
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
@@ -215,3 +215,7 @@ function! SetupEnvironment()
   endif
 endfunction
 autocmd! BufReadPost,BufNewFile * call SetupEnvironment()
+
+let g:localvimrc_ask = 0
+hi Normal ctermbg=none
+autocmd VimEnter * DetectIndent
