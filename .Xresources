@@ -18,6 +18,10 @@ URxvt.boldFont:         xft:inconsolata:pixelsize=14:antialias=true:hinting=true
 URxvt.italicFont:       xft:inconsolata:pixelsize=14:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=14:antialias=true,hinting=true
 URxvt.bolditalicFont:   xft:inconsolata:pixelsize=14:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=14:antialias=true,hinting=true
 
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.clipboard.autocopy: true
+
 ! Background color
 URxvt*background: black
 
@@ -66,3 +70,13 @@ URxvt.scrollTtyOutput:  False
 URxvt.scrollWithBuffer: True
 URxvt.scrollTtyKeypress: True
 URxvt.urgentOnBell: True
+
+rofi.opacity:           85
+rofi.width:             50
+rofi.lines:             5
+rofi.font:              Terminus 10px
+rofi.hide-scrollbar:    false
+rofi.padding:           10
+rofi.eh:                2
+rofi.bw:                1
+rofi.bc:                base0D
