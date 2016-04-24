@@ -18,7 +18,7 @@ client.urgent           #000000 #9b6465 #ffffff #9b6465
 client.placeholder      #000000 #ffffff #ffffff #000000
 
 new_window pixel 0
-gaps inner 20
+gaps inner 10
 gaps outer 5
 #gaps outer current plus 5
 
@@ -174,7 +174,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 #        font pango: Terminus 11px, Icons 10
-	status_command i3status -c ~/.i3/i3status.conf
+#status_command i3status -c ~/.i3/i3status.conf
+	status_command i3blocks -c ~/.i3/i3blocks.conf
    separator_symbol                "|"
 # tray_output HDMI2
 #tray_output none
