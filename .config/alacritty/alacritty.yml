@@ -1,0 +1,118 @@
+live_config_reload: true
+colors:
+  draw_bold_text_with_bright_colors: true
+  primary:
+    background: "#1d1f21"
+    foreground: "#c5c8c6"
+  normal:
+    black: "#1d1f21"
+    red: "#cc342b"
+    green: "#198844"
+    yellow: "#fba922"
+    blue: "#3971ed"
+    magenta: "#a36ac7"
+    cyan: "#3971ed"
+    white: "#c5c8c6"
+  bright:
+    black: "#969896"
+    red: "#cc342b"
+    green: "#198844"
+    yellow: "#fba922"
+    blue: "#3971ed"
+    magenta: "#a36ac7"
+    cyan: "#3971ed"
+    white: "#ffffff"
+env:
+  TERM: xterm-256color
+font:
+  size: 11
+  glyph_offset:
+    x: 0
+    y: 0
+  normal:
+    family: monospace
+    style: Regular
+  offset:
+    x: 0
+    y: 0
+keyboard:
+  bindings:
+    - action: Quit
+      key: W
+      mods: Command|Shift
+    - action: SpawnNewInstance
+      key: N
+      mods: Command
+    - chars: "\eb"
+      key: Left
+      mods: Alt
+    - chars: "\ef"
+      key: Right
+      mods: Alt
+    - chars: "\x01"
+      key: Left
+      mods: Command
+    - chars: "\x05"
+      key: Right
+      mods: Command
+    - chars: "\x15"
+      key: Back
+      mods: Command
+    - chars: "\e␡"
+      key: Back
+      mods: Alt
+    - chars: "\x1cc"
+      key: T
+      mods: Command
+    - chars: "\x1c&"
+      key: W
+      mods: Command
+    - chars: "\x1cp"
+      key: LBracket
+      mods: Command|Shift
+    - chars: "\x1cn"
+      key: RBracket
+      mods: Command|Shift
+    - chars: "\x1c1"
+      key: Key1
+      mods: Command
+    - chars: "\x1c2"
+      key: Key2
+      mods: Command
+    - chars: "\x1c3"
+      key: Key3
+      mods: Command
+    - chars: "\x1c4"
+      key: Key4
+      mods: Command
+    - chars: "\x1c5"
+      key: Key5
+      mods: Command
+    - chars: "\x1c6"
+      key: Key6
+      mods: Command
+    - chars: "\x1c7"
+      key: Key7
+      mods: Command
+    - chars: "\x1c8"
+      key: Key8
+      mods: Command
+    - chars: "\x1c9"
+      key: Key9
+      mods: Command
+    - action: ReceiveChar
+      key: Back
+scrolling:
+  history: 10000
+  multiplier: 4
+selection:
+  save_to_clipboard: true
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+window:
+  opacity: 0.97
+  decorations: "full"
+  dynamic_padding: true
+  dimensions:
+    columns: 90
+    lines: 25
+  dynamic_title: true
