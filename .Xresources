@@ -54,8 +54,13 @@ URxvt.background: [90]#000000
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
 
-Xft.lcdfilter: lcddefaul
-
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
 URxvt.internalBorder:   0
 URxvt.underlineColor:scroll#999999
