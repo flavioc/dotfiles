@@ -1,7 +1,7 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-name = Flavio Cruz
-email = flaviocruz@gmail.com
+	email = flaviocruz@gmail.com
+	name = Flavio Cruz
 [core]
 	editor = vim
+[alias]
+	format-patch-repo = !git format-patch --subject-prefix=\"PATCH $(basename $(git rev-parse --show-toplevel))\"
