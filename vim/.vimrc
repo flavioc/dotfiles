@@ -35,6 +35,8 @@ Plugin 'embear/vim-localvimrc'
 Bundle 'roryokane/detectindent'
 Plugin 'junegunn/fzf'
 Plugin 'miconda/lucariox.vim'
+Plugin 'morhetz/gruvbox'
+Plugin 'NLKNguyen/papercolor-theme'
 call vundle#end()
 
 filetype plugin indent on
@@ -154,4 +156,4 @@ nnoremap <silent> <C-p> :FZF<CR>
 autocmd BufLeave,BufWinLeave * silent! mkview
 autocmd filetype c,cpp,h,hpp silent! :Sleuth
 autocmd BufReadPost * silent! loadview
-colorscheme darkblue
+colorscheme PaperColor
