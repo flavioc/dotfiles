@@ -157,3 +157,4 @@ autocmd BufLeave,BufWinLeave * silent! mkview
 autocmd filetype c,cpp,h,hpp silent! :Sleuth
 autocmd BufReadPost * silent! loadview
 colorscheme PaperColor
+set number
