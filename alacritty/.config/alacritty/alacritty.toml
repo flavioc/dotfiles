@@ -1,0 +1,183 @@
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#969896"
+blue = "#3971ed"
+cyan = "#3971ed"
+green = "#198844"
+magenta = "#a36ac7"
+red = "#cc342b"
+white = "#ffffff"
+yellow = "#fba922"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#3971ed"
+cyan = "#3971ed"
+green = "#198844"
+magenta = "#a36ac7"
+red = "#cc342b"
+white = "#c5c8c6"
+yellow = "#fba922"
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#c5c8c6"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 11
+
+[font.bold]
+#family = "monospace"
+family = "Cascadia Code"
+style = "Regular"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+#family = "monospace"
+family = "Cascadia Code"
+style = "Light"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "W"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0005"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B␡"
+key = "Back"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Cc"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C&"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001Cp"
+key = "LBracket"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001Cn"
+key = "RBracket"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001C1"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C2"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C3"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C4"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C5"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C6"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C7"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C8"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001C9"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ReceiveChar"
+key = "Back"
+
+[scrolling]
+history = 10000
+multiplier = 4
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window]
+decorations = "full"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.97
+
+[window.dimensions]
+columns = 90
+lines = 25
