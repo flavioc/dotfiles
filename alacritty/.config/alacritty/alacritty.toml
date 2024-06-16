@@ -111,6 +111,26 @@ key = "LBracket"
 mods = "Command|Shift"
 
 [[keyboard.bindings]]
+key = "C"
+mods = "Command"
+chars = "\u0003"
+
+[[keyboard.bindings]]
+key = "D"
+mods = "Command"
+chars = "\u0004"
+
+[[keyboard.bindings]]
+key = "P"
+mods = "Command"
+chars = "\u0010"
+
+[[keyboard.bindings]]
+key = "S"
+mods = "Command"
+chars = "\u0013"
+
+[[keyboard.bindings]]
 chars = "\u001Cn"
 key = "RBracket"
 mods = "Command|Shift"
