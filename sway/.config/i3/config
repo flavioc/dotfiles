@@ -193,6 +193,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+gaps inner 5
+gaps outer 3
+
 set $bg #282828
 set $red #cc241d
 set $green #98971a

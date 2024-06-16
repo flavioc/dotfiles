@@ -35,7 +35,7 @@ size = 11
 
 [font.bold]
 #family = "monospace"
-family = "Cascadia Code"
+family = "Cascadia Code NF"
 style = "Regular"
 
 [font.glyph_offset]
@@ -44,7 +44,7 @@ y = 0
 
 [font.normal]
 #family = "monospace"
-family = "Cascadia Code"
+family = "Cascadia Code NF"
 style = "Light"
 
 [font.offset]
