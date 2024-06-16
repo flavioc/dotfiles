@@ -1,31 +1,7 @@
 live_config_reload = true
-
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[colors.bright]
-black = "#969896"
-blue = "#3971ed"
-cyan = "#3971ed"
-green = "#198844"
-magenta = "#a36ac7"
-red = "#cc342b"
-white = "#ffffff"
-yellow = "#fba922"
-
-[colors.normal]
-black = "#1d1f21"
-blue = "#3971ed"
-cyan = "#3971ed"
-green = "#198844"
-magenta = "#a36ac7"
-red = "#cc342b"
-white = "#c5c8c6"
-yellow = "#fba922"
-
-[colors.primary]
-background = "#1d1f21"
-foreground = "#c5c8c6"
+import = [
+	"~/.config/alacritty/themes/github_dark_high_contrast.toml"
+]
 
 [env]
 TERM = "xterm-256color"
