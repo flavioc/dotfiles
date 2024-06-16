@@ -28,10 +28,10 @@ alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
 
-alias l="exa"
-alias la="exa -a"
-alias ll="exa -lah"
-alias ls="exa --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --git --binary --group"
+alias l="eza"
+alias la="eza -a"
+alias ll="eza -lah"
+alias ls="eza --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --git --binary --group"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
