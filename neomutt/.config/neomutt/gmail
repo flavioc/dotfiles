@@ -1,0 +1,10 @@
+set sendmail="/usr/bin/msmtp"
+set spoolfile = "+INBOX"
+# Location of drafts
+set postponed = "+Drafts"# Activate caching, as it can greatly improve speed
+set record = "+Sent Items"
+set trash = "+Deleted Items"
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"# Disable saving outgoing mail since Gmail saves them by default. set record = ""
+set timeout = 5
+set spoolfile = +INBOX
