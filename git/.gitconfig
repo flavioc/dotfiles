@@ -5,3 +5,5 @@
 	editor = vim
 [alias]
 	format-patch-repo = !git format-patch --subject-prefix=\"PATCH $(basename $(git rev-parse --show-toplevel))\"
+[sendemail]
+	smtpserver = /usr/bin/msmtp
