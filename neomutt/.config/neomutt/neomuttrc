@@ -9,6 +9,6 @@ source ~/.config/neomutt/mappings
 folder-hook Gmail/* source ~/.config/neomutt/gmail
 source ~/.config/neomutt/mailboxes
 set spoolfile = "+INBOX"
-set sidebar_visible = yes
+set sidebar_visible = false
 set sidebar_format = "%B%*  %N" # Show number of unread messages
 set mbox        = "+All Mail"
