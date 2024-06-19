@@ -20,10 +20,13 @@ fi
 # Customize to your needs...
 export EDITOR=vim
 
+export PATH=~/.cargo/bin:$PATH
+
 function cdd() {
   cd `git rev-parse --show-toplevel`
 }
 
+alias less=bat
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
