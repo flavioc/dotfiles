@@ -1,6 +1,6 @@
 live_config_reload = true
 import = [
-	"~/.config/alacritty/themes/github_dark_high_contrast.toml"
+	"~/.config/alacritty/themes/gruvbox_dark.toml"
 ]
 
 [env]
