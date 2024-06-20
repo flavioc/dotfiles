@@ -1,0 +1,23 @@
+
+@theme "/usr/share/rofi/themes/Monokai.rasi"
+configuration {
+icon-theme: "Papirus";
+show-icons: true;
+modi: "filebrowser,drun,combi";
+
+}
+
+timeout {
+  action: "kb-cancel";
+  delay:  0;
+}
+
+#window {
+  run-display-format: "{icon} {name}";
+  font: "Cascadia Mono NF Light 12";
+}
+
+filebrowser {
+  directories-first: true;
+  sorting-method:    "name";
+}
