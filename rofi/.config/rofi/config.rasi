@@ -14,7 +14,7 @@ timeout {
 
 #window {
   run-display-format: "{icon} {name}";
-  font: "Cascadia Mono NF Light 12";
+  font: "JetBrainsMono NF 12";
 }
 
 filebrowser {
