@@ -18,6 +18,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
 export EDITOR=vim
 
 export PATH=~/.fzf/bin:~/.cargo/bin:~/go/bin:$PATH
@@ -37,6 +38,10 @@ alias ll="eza -lah"
 alias ls="eza --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --git --binary --group"
 
 alias mutt=neomutt
+
+function runhurd() {
+  qemu-system-i386 --enable-kvm -drive cache=writeback,file=$(echo debian-hurd-*.img) -net user,hostfwd=tcp:127.0.0.1:2222-:22 -m 4G -net nic,model=e1000
+}
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
