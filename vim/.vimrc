@@ -23,6 +23,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'rafi/awesome-vim-colorschemes'
 Plugin 'ervandew/supertab'
+Plugin 'catppuccin/vim'
 call vundle#end()
 
 filetype plugin indent on
@@ -94,4 +95,4 @@ nnoremap <silent> <C-p> :FZF<CR>
 autocmd BufLeave,BufWinLeave * silent! mkview
 autocmd filetype c,cpp,h,hpp silent! :Sleuth
 autocmd BufReadPost * silent! loadview
-colorscheme PaperColor
+colorscheme catppuccin_mocha
